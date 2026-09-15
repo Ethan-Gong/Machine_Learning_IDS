@@ -1,0 +1,44 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python-generated files and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime data and databases
+DATA/
+CSV/
+*.pcap
+*.pcapng
+*.csv
+*.db
+*.sqlite*
+*.log
+
+# Third-party tools: install these separately
+Wireshark/
+CICFlowMeter-4.0/
+
+# Personal/reference documents and temporary artifacts
+*.pdf
+tmp/
+
+# Downloaded archives
+*.zip
+*.7z
+*.tar
+*.gz
